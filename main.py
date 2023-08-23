@@ -122,7 +122,7 @@ while not done:
         score_font.render_to(display, (100 - score_rect.width // 2, HEIGHT + 25 - score_rect.height // 2), f"Length: {size}")
         pygame.display.update()
 
-
+    pygame.display.update()
 
 if game_lost:
     pygame.draw.rect(display, (0, 0, 0), pygame.Rect(WIDTH // 2 - 75, HEIGHT // 2 - 40, 150, 80))
